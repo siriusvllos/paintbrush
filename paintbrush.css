@@ -1,4 +1,24 @@
-table, td, th {
+/* https://www.w3schools.com/cssref/css_selectors.asp */
+
+[name = "cores"] {
+    border: 1px solid gray;
+    width: 40%;
+    text-align: center;
+}
+
+[name = "cor"] {
+    border: 1px solid gray;
+    width: 40%;
+    text-align: center;
+}
+
+[name = "pixels"] {
+    border: 1px solid gray;
+    width: 40%;
+    text-align: center;
+}
+
+[name = "one pixel" ] {
     border: 1px solid gray;
     width: 40%;
     text-align: center;
