@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+
      <title> paintbrush </title>
-     <link rel ="stylesheet" href = "paintbrush.css" >
-     let pixel = document.getElementByname("one pixel");
+     <link rel ="stylesheet" href = "paintbrush.css">
+     <script>
+          const pixel = document.getElementsByName("one pixel");
+          function limpar() {
+               document.pixel.style.backgroundColor = "red";
+          }
+     </script>
+     
 </head>
 <body>
 
@@ -38,7 +45,7 @@
      </tr>
  </table>
 
- <button onclick = "changeColor.pixel(white)"> limpar </button>
+ <button onclick = "limpar()"> limpar </button>
 
         </td>
     
