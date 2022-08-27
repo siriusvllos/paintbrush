@@ -5,9 +5,11 @@
      <title> paintbrush </title>
      <link rel ="stylesheet" href = "paintbrush.css">
      <script>
-          const pixel = document.getElementsByName("one pixel");
           function limpar() {
-               document.pixel.style.backgroundColor = "red";
+               const pixel = document.getElementsByName("one pixel");
+               for (i = 0; i <= 10000; i = i + 1) { 
+                     pixel[i].style.backgroundColor = "red";
+               }
           }
      </script>
      
