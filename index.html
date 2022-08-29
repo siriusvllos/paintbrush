@@ -5,12 +5,21 @@
      <title> paintbrush </title>
      <link rel ="stylesheet" href = "paintbrush.css">
      <script>
-          function limpar() {
-               const pixel = document.getElementsByName("one pixel");
-               for (i = 0; i <= pixel.length; i = i + 1) { 
-                     pixel[i].style.backgroundColor = "red";
+          function fundo() {
+               var corEscolhida = undefined;
+               const cor = document.getElementsByName ("cor");
+               for (i = 0; i <= cor.length; i = i + 1) {
+                    cor[i] = corEscolhida;
                }
           }
+
+          function limpar() {
+               const pixel = document.getElementsByName ("one pixel");
+               for (i = 0; i <= pixel.length; i = i + 1) { 
+                     pixel[i].style.backgroundColor = corEscolhida;
+               }
+          }
+
      </script>
      
 </head>
@@ -22,28 +31,28 @@
 
  <table name = "cores">
      <tr>
-        <td name = cor bgcolor = "#ff6961" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#ff6961" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#ffb480" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#ffb480" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#f8f38d" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#f8f38d" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#42d6a4" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#42d6a4" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#08cad1" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#08cad1" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#59adf6" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#59adf6" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#9d94ff" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#9d94ff" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#c780e8" > &nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#c780e8" onclick = "fundo()" > &nbsp;&nbsp; </td>
      </tr>
  </table>
 
