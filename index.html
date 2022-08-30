@@ -5,11 +5,15 @@
      <title> paintbrush </title>
      <link rel ="stylesheet" href = "paintbrush.css">
      <script>
+     
           var corEscolhida = undefined;
           function choice(cor) {
                 corEscolhida = cor;
           }
-           function limpar() {
+          function mudarCor(clickedPixel) {
+               clickedPixel.style.backgroundColor = corEscolhida;
+          }
+          function limpar() {
                 const pixel = document.getElementsByName ("one pixel");
                 for (i = 0; i <= pixel.length; i = i + 1) { 
                       pixel[i].style.backgroundColor = corEscolhida;
@@ -59,964 +63,964 @@
        <td>
  <table name = "pixels">
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
     <tr>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
-         <td name = "one pixel" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
+         <td name = "one pixel" onclick = "mudarCor(this)" > &nbsp;&nbsp; </td>
     </tr>
 
         </td>
