@@ -9,9 +9,10 @@
 </head>
 
 <body class = "mainPanel">
+     <div name = "temaAtivo" class = "darkTheme">
      <select>
-          <option onselect = "mudarTema()" > dark-theme </option>
-          <option onselect = "mudarTema()" > light-theme </option>
+          <option onselect = "mudarTema('darkTheme')" > dark-theme </option>
+          <option onselect = "mudarTema('ligthTheme')" > light-theme </option>
      </select>
 
 <table> 
@@ -1019,5 +1020,6 @@
  </tr>
 </table>
 
+     </div>
 </body>
 </html>

@@ -2,20 +2,21 @@
 
 var corEscolhida = undefined;
 function essaCor(cor) {
-      corEscolhida = cor;
+    corEscolhida = cor;
 }
 function mudarCor(clickedPixel) {
-     clickedPixel.style.backgroundColor = corEscolhida;
+    clickedPixel.style.backgroundColor = corEscolhida;
 }
 function limpar() {
-      const pixel = document.getElementsByName ("one pixel");
-      for (i = 0; i <= pixel.length; i = i + 1) { 
-            pixel[i].style.backgroundColor = corEscolhida;
-      }
+    const pixel = document.getElementsByName ("one pixel");
+    for (i = 0; i <= pixel.length; i = i + 1) { 
+        pixel[i].style.backgroundColor = corEscolhida;
+    }
 }
 
 // funcoes p mudar o tema
 
-function mudarTema() {
-    
+function mudarTema(tema) {
+    const temaAtivo = document.getElementsByName ("temaAtivo");
+    temaAtivo.class = tema;
 }
