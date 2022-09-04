@@ -8,11 +8,12 @@
      
 </head>
 
-<body class = "mainPanel">
-     <div name = "temaAtivo" class = "darkTheme">
-     <select>
-          <option onselect = "mudarTema('darkTheme')" > dark-theme </option>
-          <option onselect = "mudarTema('ligthTheme')" > light-theme </option>
+<body class = "darkTheme">
+<div name = "temaAtivo" class = "mainPanel"></div>
+
+     <select onchange = "mudarTema(this)">
+          <option value="darkTheme"> dark-theme </option>
+          <option value="lightTheme"> light-theme </option>
      </select>
 
 <table> 

@@ -17,6 +17,5 @@ function limpar() {
 // funcoes p mudar o tema
 
 function mudarTema(tema) {
-    const temaAtivo = document.getElementsByName ("temaAtivo");
-    temaAtivo.class = tema;
+    document.body.className = tema.value;
 }
