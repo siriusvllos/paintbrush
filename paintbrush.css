@@ -1,4 +1,18 @@
-/* https://www.w3schools.com/cssref/css_selectors.asp */
+/* temas */
+.darkTheme {
+    --fundo: #222;
+}
+.lightTheme {
+    --fundo: whitesmoke;
+}
+
+
+
+/* elementos */
+
+.mainPanel {
+    background-color: var(--fundo);
+}
 
 [name = "cores"] {
     border: 1px solid gray;
@@ -24,3 +38,4 @@
     width: 40%;
     text-align: center;
 }
+

@@ -3,27 +3,19 @@
 <head>
 
      <title> paintbrush </title>
-     <link rel ="stylesheet" href = "paintbrush.css">
-     <script>
      
-          var corEscolhida = undefined;
-          function choice(cor) {
-                corEscolhida = cor;
-          }
-          function mudarCor(clickedPixel) {
-               clickedPixel.style.backgroundColor = corEscolhida;
-          }
-          function limpar() {
-                const pixel = document.getElementsByName ("one pixel");
-                for (i = 0; i <= pixel.length; i = i + 1) { 
-                      pixel[i].style.backgroundColor = corEscolhida;
-                }
-          }
-
-     </script>
+     <link rel = "stylesheet" href = "paintbrush.css">
+     <script src = "paintbrush.js"></script>
      
 </head>
-<body>
+
+<body class = "darkTheme">
+<div name = "temaAtivo" class = "mainPanel">
+
+     <select onchange = "mudarTema(this)">
+          <option value = "darkTheme"> dark-theme </option>
+          <option value = "lightTheme"> light-theme </option>
+     </select>
 
 <table> 
     <tr>
@@ -31,28 +23,28 @@
 
  <table name = "cores">
      <tr>
-        <td name = cor bgcolor = "#ff6961" onclick = "choice('#ff6961')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#ff6961" onclick = "essaCor('#ff6961')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#ffb480" onclick = "choice('#ffb480')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#ffb480" onclick = "essaCor('#ffb480')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#f8f38d" onclick = "choice('#f8f38d')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#f8f38d" onclick = "essaCor('#f8f38d')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#42d6a4" onclick = "choice('#42d6a4')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#42d6a4" onclick = "essaCor('#42d6a4')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#08cad1" onclick = "choice('#08cad1')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#08cad1" onclick = "essaCor('#08cad1')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#59adf6" onclick = "choice('#59adf6')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#59adf6" onclick = "essaCor('#59adf6')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#9d94ff" onclick = "choice('#9d94ff')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#9d94ff" onclick = "essaCor('#9d94ff')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
      <tr>
-        <td name = cor bgcolor = "#c780e8" onclick = "choice('#c780e8')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
+        <td name = cor bgcolor = "#c780e8" onclick = "essaCor('#c780e8')" > &nbsp;&nbsp;&nbsp;&nbsp; </td>
      </tr>
  </table>
 
@@ -1030,5 +1022,6 @@
  </tr>
 </table>
 
+     </div>
 </body>
 </html>
