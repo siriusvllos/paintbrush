@@ -17,8 +17,8 @@ function limpar() {
 // funcoes p mudar o tema
 
 function mudarTema(tema) {
-    document.body.className = tema.value;
-
+    document.body.className = tema.value
+}
 // WIP - issue18
 
 function salvar() {
