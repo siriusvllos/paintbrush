@@ -14,12 +14,14 @@ function limpar() {
     }
 }
 
-// funcoes p mudar o tema
+// funcao p mudar o tema
 
 function mudarTema(tema) {
-    document.body.className = tema.value
+    document.body.className = tema.value;
+    localStorage.setItem("ultimoTema", tema.value);
 }
-// WIP - issue18
+
+// funcoes p retornar oq esta salvo no localstorage
 
 function salvar() {
     const pixel = document.getElementsByName ("one pixel");
@@ -39,4 +41,9 @@ function retornarSalvo() {
     for (i = 0; i < pixel.length; i = i + 1) {
         pixel[i].style.backgroundColor = salvo[i];
     }
+
+    var tema = localStorage.getItem("ultimoTema");
+    var temaAtual = document.getElementById("temas");
+    temaAtual.value = tema;
+    mudarTema(temaAtual);
 }
